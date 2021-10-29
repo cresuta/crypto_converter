@@ -1,2 +1,4 @@
 import { getCurrencies } from "./currency/CurrencyDataProvider.js";
-getCurrencies();
+import { getCurrency } from "./currency/CurrencyDataProvider.js";
+
+getCurrency("ETH")
